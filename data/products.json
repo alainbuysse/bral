@@ -1,0 +1,16 @@
+[{
+    "id": "1",
+    "name": "Metagenics MetaRelax 90 tabletten",
+    "price": 34.87,
+    "image": "https://optiphar.com/uploads/products/img/619/metarelax_901-large.jpg",
+    "description": "MetaRelax is een goed opneembaar magnesiumsupplement op basis van magnesiumglycerofosfaat met limoensmaak.",
+    "url": "http://snipcart-hugo.netlify.com"
+}, {
+    "id": "2",
+    "name": "Promagnor Promo* 90 + 15 tabletten",
+    "description": "Promagnor is een voedingssupplement dat een hoog gedoseerd magnesiumoxide bevat een onmisbaar mineraal voor ons lichaam naast onder andere calcium en ijzer. Magnesium wordt zelf niet in ons lichaam aangemaakt en moet daardoor opgenomen worden via de voeding. ",
+    "price": 145.98,
+    "image": "https://optiphar.com/uploads/products/img/668/promagnor_90+15_promo_magnesiuim-large.jpg",
+    "url": "http://snipcart-hugo.netlify.com"
+}]
+
