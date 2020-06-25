@@ -15,3 +15,17 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "data/products.json"
+        label: "ProductsLabel"
+        name: "productsName"
+        fields:
+          - {label: ID, name: id, widget: string}
+          - {label: Name, name: name, widget: string}
+          - {label: Price, name: price, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Description, name: description, widget: string}
+          - {label: Url, name: url, widget: string}
+          
