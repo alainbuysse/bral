@@ -18,6 +18,8 @@ collections:
   - name: "pages"
     label: "Pages"
     create: true
+    extension: "json"
+    format: "json"
     files:
       - file: "data/products.json"
         label: "ProductsLabel"
