@@ -36,6 +36,7 @@ collections:
         fields:
           - widget: list
             name: "deeper"
+            identifier_field: idf
             fields:
               - {label: ID, name: id, widget: string}
               - {label: Name, name: name, widget: string}
