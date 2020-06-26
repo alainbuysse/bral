@@ -17,9 +17,9 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "pages"
     label: "Pages"
-    create: true
     extension: "json"
     format: "json"
+    folder: "data/"
     files:
       - file: "data/product.json"
         label: "ProductsLabel"
@@ -31,15 +31,3 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Description, name: description, widget: string}
           - {label: Url, name: url, widget: string}
-      - file: "data/products.json"
-        fields:
-          widget: list
-          fields:
-            - {label: ID, name: id, widget: string}
-            - {label: Name, name: name, widget: string}
-            - {label: Price, name: price, widget: string}
-            - {label: Image, name: image, widget: image}
-            - {label: Description, name: description, widget: string}
-            - {label: Url, name: url, widget: string}
-     
-          
