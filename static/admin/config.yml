@@ -34,7 +34,7 @@ collections:
         label: "productslabelll"
         name: "productsNameee"
         fields:
-        widget: list
+          widget: list
           fields:
             - {label: ID, name: id, widget: string}
             - {label: Name, name: name, widget: string}
