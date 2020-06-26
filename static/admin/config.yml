@@ -19,7 +19,6 @@ collections:
     label: "Pages"
     extension: "json"
     format: "json"
-    folder: "data/"
     files:
       - file: "data/product.json"
         label: "ProductsLabel"
