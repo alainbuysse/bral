@@ -34,13 +34,4 @@ collections:
         label: "productslabelll"
         name: "productsNameee"
         fields:
-          - widget: list
-            name: "deeper"
-            identifier_field: idf
-            fields:
-              - {label: ID, name: id, widget: string}
-              - {label: Name, name: name, widget: string}
-              - {label: Price, name: price, widget: string}
-              - {label: Image, name: image, widget: image}
-              - {label: Description, name: description, widget: string}
-              - {label: Url, name: url, widget: string}
+          - { name: body, label: Body, widget: code }
