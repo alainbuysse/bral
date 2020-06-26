@@ -35,6 +35,7 @@ collections:
         name: "productsNameee"
         fields:
           - widget: list
+            name: "deeper"
             fields:
               - {label: ID, name: id, widget: string}
               - {label: Name, name: name, widget: string}
