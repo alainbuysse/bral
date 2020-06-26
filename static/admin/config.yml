@@ -20,7 +20,7 @@ collections:
     extension: "json"
     format: "json"
     files:
-      - file: "data/products.json"
+      - file: "data/product.json"
         label: "ProductsLabel"
         name: "productsName"
         fields:
