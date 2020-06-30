@@ -30,7 +30,7 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Description, name: description, widget: string}
           - {label: Url, name: url, widget: string}
-      - file: "data/products.json"
+      - file: "data/test.json"
         label: "productslabelll"
         name: "productsNameee"
         fields:
