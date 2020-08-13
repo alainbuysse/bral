@@ -32,3 +32,5 @@ fields:
   config:
     required: false
   label: product_url
+pages:
+- content/products/1.md
