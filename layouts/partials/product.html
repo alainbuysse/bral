@@ -11,6 +11,8 @@
 	{{ $url := urls.Parse "https://bral.netlify.app/?product=fsqdfqsd" }}
 	{{ $url.Scheme }} 
 	{{ $url.Host }} 
+	{{ $url.Path }} 
+		{{ $url.RawQuery }} 
         <div class="card-content">
             <p>{{ .price }} €</p>
         </div>
