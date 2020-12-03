@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: data/products.json
+  path: content/products
   label: Products
   create: all
   match: "**/*"
