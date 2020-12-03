@@ -7,8 +7,6 @@ sections:
 - type: document
   path: data/products.json
   label: data
-  match: "**/*"
-  read_only: false
 - type: directory
   path: content/products
   label: Products

@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "1",
     "name": "Febelcare Med6 Zelfklevende steriele Verband.10x8cm 10st",
     "price": 8.74,
@@ -7,17 +8,18 @@
     "url": "http://snipcart-hugo.netlify.com",
     "maxquantity": 10,
     "stockinfo": "voldoende voorraad"
-}, {
+  },
+  {
     "id": "2",
     "name": "La Sportiva Otaki Klimschoenen Heren, blue/flame (2020)",
     "description": "Geboren voor maximale ondersteuning. De XS Edge-zool zorgt voor een maximaal ontlastend effect op de kleinste treden. Dankzij de verhoogde weerstand tegen plastische vervorming behoudt XS Edge zijn vorm (lengte) ook na vele uren gebruik bij zowel lage als hoge temperaturen.",
     "price": 145.98,
-    "image": "https://images.internetstores.de/products//472682/02/a3cf8d/La_Sportiva_Otaki_Kletterschuhe_Herren_blue_flame[640x480].jpg",
+    "image": "/uploads/int01.jpg",
     "url": "http://snipcart-hugo.netlify.com",
     "maxquantity": 1,
     "stockinfo": "1 op voorraad"
-},
-{
+  },
+  {
     "id": "3",
     "name": "testschoen",
     "price": 100,
@@ -26,4 +28,5 @@
     "url": "http://snipcart-hugo.netlify.com",
     "maxquantity": 0,
     "stockinfo": "product niet voorradig"
-}]
+  }
+]
