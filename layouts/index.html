@@ -11,11 +11,11 @@
 </section>
 
 
-{{ $products := getJSON "/data/medipim.json" }}
+{{ $medipims := getJSON "/data/medipim.json" }}
 
 <section class="container">
     <div class="row">
-        {{ range $medipim }}
+        {{ range $medipims }}
             {{ partial "medipim.html" . }}
         {{ end }}
     </div>
