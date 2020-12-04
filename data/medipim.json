@@ -1,0 +1,614 @@
+[
+{
+    "meta": {
+        "total": 1448,
+        "index": 0
+    },
+    "result": {
+        "id": "M4B5DD3BD0",
+        "name": {
+            "nl": "Antimonium Crudum 200k Gl Boiron",
+            "fr": "Antimonium Crudum 200k Gl Boiron",
+            "en": null
+        },
+        "shortDescription": {
+            "nl": null,
+            "fr": null,
+            "en": null
+        },
+        "prescription": false,
+        "writtenRequestByPatient": false,
+        "status": "active",
+        "replacement": null,
+        "officialDeletionAt": null,
+        "packageQuantity": null,
+        "weight": 3,
+        "width": 12,
+        "length": 45,
+        "depth": 12,
+        "cnk": "0325837",
+        "ean": [
+            "3352719013145"
+        ],
+        "udi": null,
+        "nut": null,
+        "atc": null,
+        "gtin": [
+            "03352719013145"
+        ],
+        "ctiExtended": null,
+        "productFamily": [],
+        "supplierReference": null,
+        "publicPrice": 459,
+        "pharmacistPrice": 299,
+        "vat": 6,
+        "refundValueWithOmnio": null,
+        "refundValueWithoutOmnio": null,
+        "publicCategories": [
+            {
+                "id": 445,
+                "name": {
+                    "nl": "Homeopathie",
+                    "fr": "Homéopathie",
+                    "en": "Homeopathie"
+                },
+                "parent": 5,
+                "order": 9,
+                "meta": {
+                    "createdAt": 1497540818,
+                    "updatedAt": 1497540818
+                }
+            }
+        ],
+        "activeIngredients": null,
+        "bcfiCategory": null,
+        "brands": [
+            {
+                "id": 93,
+                "name": {
+                    "nl": "Boiron",
+                    "fr": "Boiron",
+                    "en": "Boiron"
+                },
+                "meta": {
+                    "createdAt": 1426496400,
+                    "updatedAt": 1563874286
+                }
+            }
+        ],
+        "attributes": [],
+        "apbCategory": {
+            "id": "homeopathy",
+            "name": {
+                "nl": "Homeopathie",
+                "fr": "Homéopathie",
+                "en": "Homeopathy"
+            }
+        },
+        "allowedSpecies": [
+            null
+        ],
+        "conservation": "room",
+        "expires": true,
+        "tradeInRefundValue": 5000,
+        "tradeInMonthsBeforeExpiry": 3,
+        "tradeInMonthsAfterExpiry": 6,
+        "organizations": [
+            {
+                "id": 10,
+                "name": {
+                    "nl": "Boiron",
+                    "fr": "Boiron",
+                    "en": "Boiron"
+                },
+                "type": "supplier",
+                "brands": [
+                    93
+                ],
+                "meta": {
+                    "createdAt": null,
+                    "updatedAt": 1564741614
+                }
+            }
+        ],
+        "photos": [
+            {
+                "id": 69702,
+                "locales": [
+                    "nl",
+                    "fr"
+                ],
+                "targetGroups": [
+                    "public",
+                    "pharmacist",
+                    "doctor",
+                    "homecare",
+                    "hospital"
+                ],
+                "type": "packshot",
+                "formats": {
+                    "huge": "https://media.medipim.be/media/1500x1500/fbbcb48886f74ba6676e8a0a757b4082.jpg",
+                    "large": "https://media.medipim.be/media/900x900/63caecad40254a9252e42ce61697614a90a958cd.jpg",
+                    "medium": "https://media.medipim.be/media/450x450/120d90d3ce0e5a3fee2b024dbf2d7533ab48b56d.jpg"
+                },
+                "meta": {
+                    "createdAt": 1436617515,
+                    "updatedAt": 1447632000
+                }
+            }
+        ],
+        "frontals": [],
+        "links": [],
+        "descriptions": [],
+        "leaflets": [],
+        "meta": {
+            "createdAt": 1365417402,
+            "updatedAt": 1598535596,
+            "embedUrl": "https://api.medipim.be/v3/products/embed?id=M4B5DD3BD0&t=1607077986&key=39&mac=57b96b42f10cef40c5ada65de6495639efb804d2f934ded60a41f40108483c6c"
+        }
+    }
+}
+{
+    "meta": {
+        "total": 1448,
+        "index": 1
+    },
+    "result": {
+        "id": "M3419BA99B",
+        "name": {
+            "nl": "Calcarea Carbonica Ostrearum 200k Gl Boiron",
+            "fr": "Calcarea Carbonica Ostrearum 200k Gl Boiron",
+            "en": null
+        },
+        "shortDescription": {
+            "nl": null,
+            "fr": null,
+            "en": null
+        },
+        "prescription": false,
+        "writtenRequestByPatient": false,
+        "status": "active",
+        "replacement": null,
+        "officialDeletionAt": null,
+        "packageQuantity": null,
+        "weight": 3,
+        "width": 12,
+        "length": 43,
+        "depth": 12,
+        "cnk": "0326991",
+        "ean": [
+            "3352719013404"
+        ],
+        "udi": null,
+        "nut": null,
+        "atc": null,
+        "gtin": [
+            "03352719013404"
+        ],
+        "ctiExtended": null,
+        "productFamily": [],
+        "supplierReference": null,
+        "publicPrice": 459,
+        "pharmacistPrice": 299,
+        "vat": 6,
+        "refundValueWithOmnio": null,
+        "refundValueWithoutOmnio": null,
+        "publicCategories": [
+            {
+                "id": 445,
+                "name": {
+                    "nl": "Homeopathie",
+                    "fr": "Homéopathie",
+                    "en": "Homeopathie"
+                },
+                "parent": 5,
+                "order": 9,
+                "meta": {
+                    "createdAt": 1497540818,
+                    "updatedAt": 1497540818
+                }
+            }
+        ],
+        "activeIngredients": null,
+        "bcfiCategory": null,
+        "brands": [
+            {
+                "id": 93,
+                "name": {
+                    "nl": "Boiron",
+                    "fr": "Boiron",
+                    "en": "Boiron"
+                },
+                "meta": {
+                    "createdAt": 1426496400,
+                    "updatedAt": 1563874286
+                }
+            }
+        ],
+        "attributes": [],
+        "apbCategory": {
+            "id": "homeopathy",
+            "name": {
+                "nl": "Homeopathie",
+                "fr": "Homéopathie",
+                "en": "Homeopathy"
+            }
+        },
+        "allowedSpecies": [
+            null
+        ],
+        "conservation": "room",
+        "expires": true,
+        "tradeInRefundValue": 5000,
+        "tradeInMonthsBeforeExpiry": 3,
+        "tradeInMonthsAfterExpiry": 6,
+        "organizations": [
+            {
+                "id": 10,
+                "name": {
+                    "nl": "Boiron",
+                    "fr": "Boiron",
+                    "en": "Boiron"
+                },
+                "type": "supplier",
+                "brands": [
+                    93
+                ],
+                "meta": {
+                    "createdAt": null,
+                    "updatedAt": 1564741614
+                }
+            }
+        ],
+        "photos": [
+            {
+                "id": 65151,
+                "locales": [
+                    "nl",
+                    "fr"
+                ],
+                "targetGroups": [
+                    "public",
+                    "pharmacist",
+                    "doctor",
+                    "homecare",
+                    "hospital"
+                ],
+                "type": "packshot",
+                "formats": {
+                    "huge": "https://media.medipim.be/media/1500x1500/cf1960e21bc90cf0461414b6689f038f.jpg",
+                    "large": "https://media.medipim.be/media/900x900/00429f19cbf484a99daf2ba2f787e8831c4f47a1.jpg",
+                    "medium": "https://media.medipim.be/media/450x450/7cc5a3e60c72333935ca2273187ecbc6e49f947b.jpg"
+                },
+                "meta": {
+                    "createdAt": 1433751675,
+                    "updatedAt": 1447632000
+                }
+            }
+        ],
+        "frontals": [],
+        "links": [],
+        "descriptions": [],
+        "leaflets": [],
+        "meta": {
+            "createdAt": 1365417410,
+            "updatedAt": 1598535596,
+            "embedUrl": "https://api.medipim.be/v3/products/embed?id=M3419BA99B&t=1607077986&key=39&mac=183944dd3eee5d7b364f135c3368c6f208ac4000f812b56c983e4b68fac68ef2"
+        }
+    }
+}
+{
+    "meta": {
+        "total": 1448,
+        "index": 2
+    },
+    "result": {
+        "id": "M8056F4EC0",
+        "name": {
+            "nl": "Calcarea Fluorica Mk Gl Boiron",
+            "fr": "Calcarea Fluorica Mk Gl Boiron",
+            "en": null
+        },
+        "shortDescription": {
+            "nl": null,
+            "fr": null,
+            "en": null
+        },
+        "prescription": false,
+        "writtenRequestByPatient": false,
+        "status": "active",
+        "replacement": null,
+        "officialDeletionAt": null,
+        "packageQuantity": null,
+        "weight": 5,
+        "width": 27,
+        "length": 47,
+        "depth": 12,
+        "cnk": "0327155",
+        "ean": [],
+        "udi": null,
+        "nut": null,
+        "atc": null,
+        "gtin": [],
+        "ctiExtended": null,
+        "productFamily": [],
+        "supplierReference": null,
+        "publicPrice": 459,
+        "pharmacistPrice": 299,
+        "vat": 6,
+        "refundValueWithOmnio": null,
+        "refundValueWithoutOmnio": null,
+        "publicCategories": [
+            {
+                "id": 445,
+                "name": {
+                    "nl": "Homeopathie",
+                    "fr": "Homéopathie",
+                    "en": "Homeopathie"
+                },
+                "parent": 5,
+                "order": 9,
+                "meta": {
+                    "createdAt": 1497540818,
+                    "updatedAt": 1497540818
+                }
+            }
+        ],
+        "activeIngredients": null,
+        "bcfiCategory": null,
+        "brands": [
+            {
+                "id": 93,
+                "name": {
+                    "nl": "Boiron",
+                    "fr": "Boiron",
+                    "en": "Boiron"
+                },
+                "meta": {
+                    "createdAt": 1426496400,
+                    "updatedAt": 1563874286
+                }
+            }
+        ],
+        "attributes": [],
+        "apbCategory": {
+            "id": "homeopathy",
+            "name": {
+                "nl": "Homeopathie",
+                "fr": "Homéopathie",
+                "en": "Homeopathy"
+            }
+        },
+        "allowedSpecies": [
+            null
+        ],
+        "conservation": "room",
+        "expires": true,
+        "tradeInRefundValue": 5000,
+        "tradeInMonthsBeforeExpiry": 3,
+        "tradeInMonthsAfterExpiry": 6,
+        "organizations": [
+            {
+                "id": 10,
+                "name": {
+                    "nl": "Boiron",
+                    "fr": "Boiron",
+                    "en": "Boiron"
+                },
+                "type": "supplier",
+                "brands": [
+                    93
+                ],
+                "meta": {
+                    "createdAt": null,
+                    "updatedAt": 1564741614
+                }
+            }
+        ],
+        "photos": [
+            {
+                "id": 69695,
+                "locales": [
+                    "nl",
+                    "fr"
+                ],
+                "targetGroups": [
+                    "public",
+                    "pharmacist",
+                    "doctor",
+                    "homecare",
+                    "hospital"
+                ],
+                "type": "packshot",
+                "formats": {
+                    "huge": "https://media.medipim.be/media/1500x1500/8a01c723b971a638e5bbe000ccd81889.jpg",
+                    "large": "https://media.medipim.be/media/900x900/a329f28376038e6f668977b3289169068aacdecc.jpg",
+                    "medium": "https://media.medipim.be/media/450x450/da8b8619fa3f0bed5405fc73c5860b5330dd8d14.jpg"
+                },
+                "meta": {
+                    "createdAt": 1436617508,
+                    "updatedAt": 1447632000
+                }
+            }
+        ],
+        "frontals": [],
+        "links": [],
+        "descriptions": [],
+        "leaflets": [],
+        "meta": {
+            "createdAt": 1365417410,
+            "updatedAt": 1598535596,
+            "embedUrl": "https://api.medipim.be/v3/products/embed?id=M8056F4EC0&t=1607077986&key=39&mac=72890885bdd539a6df5f5d5ce94a2640aeb1f587cd05a90f8f39c53118acbdd7"
+        }
+    }
+}
+{
+    "meta": {
+        "total": 1448,
+        "index": 3
+    },
+    "result": {
+        "id": "M45C21AFE0",
+        "name": {
+            "nl": "Calcarea Phosphorica Cure 6k-mk Boiron",
+            "fr": "Calcarea Phosphorica Cure 6k-mk Boiron",
+            "en": null
+        },
+        "shortDescription": {
+            "nl": null,
+            "fr": null,
+            "en": null
+        },
+        "prescription": false,
+        "writtenRequestByPatient": false,
+        "status": "active",
+        "replacement": null,
+        "officialDeletionAt": null,
+        "packageQuantity": null,
+        "weight": null,
+        "width": 10,
+        "length": 175,
+        "depth": 80,
+        "cnk": "0327437",
+        "ean": [],
+        "udi": null,
+        "nut": null,
+        "atc": null,
+        "gtin": [],
+        "ctiExtended": null,
+        "productFamily": [],
+        "supplierReference": null,
+        "publicPrice": 2480,
+        "pharmacistPrice": 1614,
+        "vat": 6,
+        "refundValueWithOmnio": null,
+        "refundValueWithoutOmnio": null,
+        "publicCategories": [
+            {
+                "id": 445,
+                "name": {
+                    "nl": "Homeopathie",
+                    "fr": "Homéopathie",
+                    "en": "Homeopathie"
+                },
+                "parent": 5,
+                "order": 9,
+                "meta": {
+                    "createdAt": 1497540818,
+                    "updatedAt": 1497540818
+                }
+            }
+        ],
+        "activeIngredients": null,
+        "bcfiCategory": null,
+        "brands": [
+            {
+                "id": 93,
+                "name": {
+                    "nl": "Boiron",
+                    "fr": "Boiron",
+                    "en": "Boiron"
+                },
+                "meta": {
+                    "createdAt": 1426496400,
+                    "updatedAt": 1563874286
+                }
+            }
+        ],
+        "attributes": [],
+        "apbCategory": {
+            "id": "homeopathy",
+            "name": {
+                "nl": "Homeopathie",
+                "fr": "Homéopathie",
+                "en": "Homeopathy"
+            }
+        },
+        "allowedSpecies": [
+            null
+        ],
+        "conservation": "room",
+        "expires": true,
+        "tradeInRefundValue": 5000,
+        "tradeInMonthsBeforeExpiry": 3,
+        "tradeInMonthsAfterExpiry": 6,
+        "organizations": [
+            {
+                "id": 10,
+                "name": {
+                    "nl": "Boiron",
+                    "fr": "Boiron",
+                    "en": "Boiron"
+                },
+                "type": "supplier",
+                "brands": [
+                    93
+                ],
+                "meta": {
+                    "createdAt": null,
+                    "updatedAt": 1564741614
+                }
+            }
+        ],
+        "photos": [
+            {
+                "id": 43202,
+                "locales": [
+                    "nl",
+                    "fr"
+                ],
+                "targetGroups": [
+                    "public",
+                    "pharmacist",
+                    "doctor",
+                    "homecare",
+                    "hospital"
+                ],
+                "type": "packshot",
+                "formats": {
+                    "huge": "https://media.medipim.be/media/1500x1500/9f531ee9f81f2017c8ab3ee85def2da0.jpg",
+                    "large": "https://media.medipim.be/media/900x900/a608db0dd93400b9a05eedb01da478c857df4f14.jpg",
+                    "medium": "https://media.medipim.be/media/450x450/39c72effef62233de1be142eb6b91d59bc96f349.jpg"
+                },
+                "meta": {
+                    "createdAt": 1398870189,
+                    "updatedAt": 1447632000
+                }
+            },
+            {
+                "id": 37517,
+                "locales": [
+                    "nl",
+                    "fr"
+                ],
+                "targetGroups": [
+                    "public",
+                    "pharmacist",
+                    "doctor",
+                    "homecare",
+                    "hospital"
+                ],
+                "type": "packshot",
+                "formats": {
+                    "huge": "https://media.medipim.be/media/1500x1500/edb31fcbf3274950aa14a242308354a1.jpg",
+                    "large": "https://media.medipim.be/media/900x900/fcb54725185fd7e68a56672eff3d4fdf0d16c452.jpg",
+                    "medium": "https://media.medipim.be/media/450x450/531baaacc35cdbefe1cac293324a90e55c915fe8.jpg"
+                },
+                "meta": {
+                    "createdAt": 1396605488,
+                    "updatedAt": 1447632000
+                }
+            }
+        ],
+        "frontals": [],
+        "links": [],
+        "descriptions": [],
+        "leaflets": [],
+        "meta": {
+            "createdAt": 1366714783,
+            "updatedAt": 1598535597,
+            "embedUrl": "https://api.medipim.be/v3/products/embed?id=M45C21AFE0&t=1607077986&key=39&mac=65fc89b291238a52ab15e81d794ab0b65354049f0b60c2c55f7067a33506c0a2"
+        }
+    }
+}
+]
