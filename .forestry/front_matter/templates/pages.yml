@@ -1,4 +1,9 @@
 ---
 label: pages
 hide_body: false
-fields: []
+fields:
+- name: tekst
+  type: text
+  config:
+    required: false
+  label: tekst
