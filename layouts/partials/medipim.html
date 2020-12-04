@@ -3,7 +3,9 @@
     <div class="card horizontal">
         {{ .result.name.nl }}
         <div class="card-image">
-        <img src="{{ .result.photos.formats.medium }}">
+            {{ range .result.photos }}
+                <img src="{{ .formats.medium }}">
+            {{ end }}
         </div>
     </div>
 </div>
