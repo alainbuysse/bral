@@ -33,3 +33,4 @@ fields:
     label: stockinfo
 pages:
 - content/filename.md
+- data/products.json
