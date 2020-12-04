@@ -1,0 +1,32 @@
+---
+label: prodsjson
+hide_body: true
+fields:
+- type: field_group_list
+  name: Products
+  label: Products
+  fields:
+  - type: text
+    name: id
+    label: id
+  - type: text
+    name: name
+    label: name
+  - type: number
+    name: price
+    label: price
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: description
+    label: description
+  - type: text
+    name: url
+    label: url
+  - type: number
+    name: maxquantity
+    label: maxquantity
+  - type: text
+    name: stockinfo
+    label: stockinfo
