@@ -2,5 +2,8 @@
     <h2 class="header">{{ .result.id }}</h2>
     <div class="card horizontal">
         {{ .result.name.nl }}
+        <div class="card-image">
+        <img src="{{ .result.photos.formats.medium }}">
+        </div>
     </div>
 </div>
