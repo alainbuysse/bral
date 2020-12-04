@@ -1,0 +1,38 @@
+<div class="col s4">
+    <h2 class="header">{{ .name }}</h2>
+    <div class="card horizontal">
+        <div class="card-image">
+        <img src="{{ .image }}">
+        </div>
+        <div class="card-stacked">
+        <div class="card-content">
+            <p>{{ .description }}</p>
+        </div>
+	
+        <div class="card-content">
+            <p>{{ .price }} €</p>
+        </div>
+        
+	<div class="card-action">
+            <button
+                class="snipcart-add-item waves-effect waves-light btn"
+		data-item-max-quantity="{{ .maxquantity }}"  
+                data-item-id="{{ .id }}"
+                data-item-name="{{ .name }}"
+                data-item-price="{{ .price }}"
+                data-item-url="{{ .url }}"
+		data-item-image="{{ .image }}"
+		data-item-custom1-name="Schoenmaat"
+  		data-item-custom1-options="42|43|44 (+20€)[+20.00]"
+		data-item-custom2-name="Schoenkleur"
+  		data-item-custom2-options="rood|blauw (+2€)[+2.00]|groen (+3€)[+3.00]"
+		data-item-custom3-name="Stockinformatie" 
+  		data-item-custom3-type="readonly" 
+  		data-item-custom3-value= "{{ .stockinfo }}">
+            <i class="material-icons right">shopping_cart</i>
+                In winkelkar
+            </button>
+        </div>
+        </div>
+    </div>
+</div>
