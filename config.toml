@@ -1,3 +1,5 @@
 baseURL = "https://bralshop.netlify.com/"
 languageCode = "en-us"
 title = "Bralshop title config.toml"
+[permalinks]
+  products = "/:06/:1/:2/:title/"
