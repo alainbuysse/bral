@@ -10,4 +10,17 @@
     </div>
 </section>
 
+
+{{ $products := getJSON "/data/medipim.json" }}
+
+<section class="container">
+    <div class="row">
+        {{ range $medipim }}
+            {{ partial "medipim.html" . }}
+        {{ end }}
+    </div>
+</section>
+
+
+
 {{ partial "footer.html" }}
