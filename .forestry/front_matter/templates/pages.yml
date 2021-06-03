@@ -7,3 +7,7 @@ fields:
   config:
     required: false
   label: tekst
+- name: imgs
+  type: image_gallery
+  config: {}
+  label: imgs
