@@ -1,5 +1,6 @@
 module.exports = {
-  onPreBuild: ({ constants }) => {
-    console.log(constants)
+  onPreBuild: ({ constants,packageJson }) => {
+    console.log(constants);
+    console.log(packageJson);
   },
 }
