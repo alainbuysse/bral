@@ -1,6 +1,7 @@
 module.exports = {
-  onPreBuild: ({ constants,packageJson }) => {
+  onPreBuild: ({ constants,packageJson, netlifyConfig }) => {
     console.log(constants);
     console.log(packageJson);
+    console.log(netlifyConfig);
   },
 }
