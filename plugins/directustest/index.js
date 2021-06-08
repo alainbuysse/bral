@@ -24,9 +24,10 @@ module.exports = {
     }
   });
 
-  fetch('https://google.com')
-    .then(res => console.log('aa'));
-  
+fs.writeFile("./content/blog/helloworld.md", 'Hello World!', function (err) {
+  if (err) return console.log(err);
+  console.log('Hello World > helloworld.md');
+});
       //import modules and define some terms
       try {
       //get sanity data
