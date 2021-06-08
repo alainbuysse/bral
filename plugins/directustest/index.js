@@ -11,7 +11,7 @@ module.exports = {
       },
     };
         
-    fs.readdir("./content", (err, files) => {
+    fs.readdir("./content/blog", (err, files) => {
       if (err) console.log(err);
       else {
         files.forEach((file) => {
