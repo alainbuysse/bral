@@ -26,6 +26,10 @@ module.exports = {
         //import modules and define some terms
         try {
         //get sanity data
+            fetch('https://cms.bimp.be/items/pages')
+    .then(res => res.json())
+    .then(json => console.log(json));
+            
         //then output as md files in our content folder
         } catch (error) {
             utils.build.failBuild('Failure message', { error })
