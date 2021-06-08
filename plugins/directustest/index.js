@@ -28,8 +28,8 @@ module.exports = {
         try {
         //get sanity data
             fetch('https://cms.bimp.be/items/pages')
-    .then(res => res.json())
-    .then(json => console.log(json));
+    .then(res => res.text())
+    .then(text => console.log(text));
             
         //then output as md files in our content folder
         } catch (error) {
