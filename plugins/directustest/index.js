@@ -23,6 +23,11 @@ module.exports = {
         });
       }
     });
+        fetch1('https://google.com')
+    .then(res => res.text())
+    .then(text => console.log(text))
+
+    };
     
         //import modules and define some terms
         try {
@@ -40,10 +45,3 @@ module.exports = {
           }
         }
     ,
-const fetch1 = require('node-fetch');
-
-fetch1('https://google.com')
-    .then(res => res.text())
-    .then(text => console.log(text))
-
-    }
