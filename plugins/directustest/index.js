@@ -29,7 +29,9 @@ module.exports = {
         //get sanity data
             fetch('https://cms.bimp.be/items/pages')
     .then(res => res.text())
-    .then(text => console.log(text));
+    .then(text => {console.log(text);
+                  console.log('api uitgelezen');
+                  });
             
         //then output as md files in our content folder
         } catch (error) {
