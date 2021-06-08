@@ -39,7 +39,7 @@ module.exports = {
             utils.build.failBuild('Failure message', { error })
           }
         }
-    ;
+    ,
 
       app.post('https://cms.bimp.be/items/pages', getURL);
 
