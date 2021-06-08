@@ -16,7 +16,7 @@ module.exports = {
       else {
         files.forEach((file) => {
           console.log(`Deleting: ${file}`);
-          fs.unlink(`content//${file}`, (err) => {
+          fs.unlink(`content/blog//${file}`, (err) => {
             if (err) throw err;
           });
         });
