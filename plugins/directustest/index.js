@@ -26,6 +26,7 @@ module.exports = {
     
         //import modules and define some terms
         try {
+            console.log('api nog niet uitgelezen');
         //get sanity data
             fetch('https://cms.bimp.be/items/pages')
     .then(res => res.text())
