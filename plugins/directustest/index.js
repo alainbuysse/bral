@@ -41,5 +41,5 @@ fs.writeFile("./content/blog/helloworld.md", 'Hello World!', function (err) {
       } catch (error) {
           utils.build.failBuild('Failure message', { error })
         }
-      },
+      }
   }
