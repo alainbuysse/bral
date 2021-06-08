@@ -38,5 +38,27 @@ module.exports = {
         } catch (error) {
             utils.build.failBuild('Failure message', { error })
           }
-        },
+        }
+    ;
+
+      app.post('https://cms.bimp.be/items/pages', getURL);
+
+function getURL(req, res){
+    console.log(req.body);
+    url = req.body.data;
+    console.log(url)
+    textapi.sentiment({
+        'url': url
+    }, function(error, response) {
+        if (error === null) {
+            projectData = response;
+            console.log(projectData);
+            res.send(projectData)
+        }else{
+            projectData = {polarity: 'enter a valid URL', polarity_confidence: 'enter a valid URL', subjectivity: 'enter a valid URL', subjectivity_confidence: 'enter a valid URL'}
+            console.log(error)
+            res.send(projectData)
+        }
+    })
+}
     }
