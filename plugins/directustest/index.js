@@ -2,7 +2,9 @@ const fetch = require("node-fetch");
 
 const API_ENDPOINT = 'https://cat-fact.herokuapp.com/facts';
 
-exports.handler = async (event, context) => {
+module.exports = {
+  onPreBuild: async ({ event, context }) => {
+
   try {
     const response = await fetch(API_ENDPOINT);
     const data = await response.json();
@@ -13,5 +15,5 @@ exports.handler = async (event, context) => {
       statusCode: 500,
       body: JSON.stringify({ error: 'Failed fetching data' }),
     };
-  }
+  }}
 };
