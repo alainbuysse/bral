@@ -34,7 +34,6 @@ module.exports = {
 
       //import modules and define some terms
       try {
-      //get sanity data
           fetch('https://cms.bimp.be/items/pages')
   .then(res => res.text())
   .then(text => {console.log(text);                
@@ -44,5 +43,5 @@ module.exports = {
       } catch (error) {
           utils.build.failBuild('Failure message', { error })
         }
-      }
+      };
   }
