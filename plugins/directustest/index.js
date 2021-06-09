@@ -25,7 +25,11 @@ module.exports = {
   });
 
     
-    fs.writeFile("./content/blog/helloworld.md", 'Hello World!', function (err) {
+    fs.writeFile("./content/blog/helloworld.md", '---
+title: dit is de titel
+date: 2021-05-17T08:31:25.046Z
+description: kleine omschrijving
+---!', function (err) {
   if (err) return console.log(err);
   console.log('Hello World > helloworld.md');
 });
