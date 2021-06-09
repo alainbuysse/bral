@@ -38,10 +38,7 @@ module.exports = {
   .then(res => res.text())
   .then(text => {console.log(text);                
                 } 
-       fs.writeFile("./content/blog/helloworld2.md", '---  \ntitle: dit is de titel2  \ndate: 2020-02-23T08:31:25.046Z  \ndescription: kleine omschrijving  \n---!  \n', function (err) {
-  if (err) return console.log(err);
-  console.log('Hello World > helloworld2.md');
-});
+
         );
           
       //then output as md files in our content folder
