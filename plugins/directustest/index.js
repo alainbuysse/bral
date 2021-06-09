@@ -35,11 +35,8 @@ module.exports = {
       //import modules and define some terms
       try {
           fetch('https://cms.bimp.be/items/pages')
-  .then(res => res.text())
-  .then(text => {console.log(text);                
-                } 
-
-        );
+            .then(res => res.text())
+            .then(text => {console.log(text);});
           
       //then output as md files in our content folder
       } catch (error) {
