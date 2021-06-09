@@ -43,5 +43,5 @@ module.exports = {
       } catch (error) {
           utils.build.failBuild('Failure message', { error })
         }
-      };
+      }
   }
