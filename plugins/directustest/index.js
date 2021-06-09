@@ -25,7 +25,7 @@ module.exports = {
   });
 
     
-    fs.writeFile("./content/blog/helloworld.md", `--- \n title: dit is de titel \n date: 2020-02-22T08:31:25.046Z \n description: kleine omschrijving \n ---! \n `, function (err) {
+    fs.writeFile("./content/blog/helloworld.md", '---  \ntitle: dit is de titel  \ndate: 2020-02-22T08:31:25.046Z  \ndescription: kleine omschrijving  \n---!  \n', function (err) {
   if (err) return console.log(err);
   console.log('Hello World > helloworld.md');
 });
