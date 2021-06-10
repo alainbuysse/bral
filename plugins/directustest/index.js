@@ -30,6 +30,11 @@ module.exports = {
   console.log('Hello World > helloworld.md');
 });
     
+    async function fetchMovies() {
+  const response = await fetch('https://cms.bimp.be/items/pages');
+  // waits until the request completes...
+  console.log(response);
+};fetchMovies();
     
 
       //import modules and define some terms
