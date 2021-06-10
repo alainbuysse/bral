@@ -33,7 +33,13 @@ module.exports = {
 
 fetch('https://cms.bimp.be/items/pages')
   .then(response => response.json())
-  .then(json => console.log(json.data[0]))
+  .then(test => {console.log(test.data[0].title);
+    fs.writeFile("./ba.md", test.data[0].title, function (err) {
+        if (err) return console.log(err);
+        console.log('Hello World2 > helloworld2.md');
+      })
+})
+    
     
 
       //import modules and define some terms
