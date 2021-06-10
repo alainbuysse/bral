@@ -30,15 +30,10 @@ module.exports = {
   console.log('Hello World2 > helloworld2.md');
 });
     
-    async function fetchMovies() {
-  const response = await fetch('https://cms.bimp.be/items/pages');
-  // waits until the request completes...
-  console.log(response);
-      fs.writeFile("./content/blog/helloworld3.md", '---  \ntitle: dit is de titel3  \ndate: 2020-02-22T08:31:25.046Z  \ndescription: kleine omschrijving  \n---!  \n', function (err) {
-  if (err) return console.log(err);
-  console.log('Hello World > helloworld.md');
-});
-};fetchMovies();
+
+fetch('https://cms.bimp.be/items/pages')
+  .then(response => response.json())
+  .then(json => console.log(json))
     
 
       //import modules and define some terms
