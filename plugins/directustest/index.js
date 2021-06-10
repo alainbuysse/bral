@@ -25,7 +25,7 @@ module.exports = {
   });
 
     
-    fs.writeFile("./content/blog/helloworld.md", '---  \ntitle: dit is de titel  \ndate: 2020-02-22T08:31:25.046Z  \ndescription: kleine omschrijving  \n---!  \n', function (err) {
+    fs.writeFile("./content/blog/helloworld2.md", '---  \ntitle: dit is de titel2  \ndate: 2021-06-10T08:31:25.046Z  \ndescription: kleine omschrijving  \n---!  \n', function (err) {
   if (err) return console.log(err);
   console.log('Hello World > helloworld.md');
 });
@@ -34,6 +34,10 @@ module.exports = {
   const response = await fetch('https://cms.bimp.be/items/pages');
   // waits until the request completes...
   console.log(response);
+      fs.writeFile("./content/blog/helloworld.md", '---  \ntitle: dit is de titel  \ndate: 2020-02-22T08:31:25.046Z  \ndescription: kleine omschrijving  \n---!  \n', function (err) {
+  if (err) return console.log(err);
+  console.log('Hello World > helloworld.md');
+});
 };fetchMovies();
     
 
