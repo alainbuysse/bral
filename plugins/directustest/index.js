@@ -33,7 +33,7 @@ module.exports = {
 
 fetch('https://cms.bimp.be/items/pages')
   .then(response => response.json())
-  .then(json => console.log(json))
+  .then(json => console.log(json.data[0]))
     
 
       //import modules and define some terms
