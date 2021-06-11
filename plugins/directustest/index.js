@@ -2,7 +2,10 @@ module.exports = {
   onPreBuild: async ({ utils, packageJson }) => {
   console.log("my plugin loaded!")
       const fs = require("fs-extra");
-      const fetch = require('node-fetch');
+      //const fetch = require('node-fetch');
+    
+    const fetch = require('node-fetch').default
+const fetch = request('node-fetch').default
       
   //add any serializers for your portable text
   const serializers = {
