@@ -25,6 +25,10 @@ module.exports = {
   });
 
 
+    fs.writeFile("./content/blog/bal.md", "test.data[0].title", function (err) {
+        if (err) return console.log(err);
+        console.log('Hello World4 > helloworld4.md');
+      })
    
 
 const getWeather = async (id) => {
