@@ -27,13 +27,12 @@ module.exports = {
 
    
 
-// get weather information
 const getWeather = async (id) => {
   
     const base = 'https://cms.bimp.be/items/pages';
   
     const response = await fetch(base);
-    const data = await response.json();
+    const data = await response.text();
   
     return data;
   
@@ -41,7 +40,17 @@ const getWeather = async (id) => {
 
   getWeather()
   .then(data => console.log(data))
+  .then(data => {
+
+    fs.writeFile("./ba.md", "test.data[0].title", function (err) {
+        if (err) return console.log(err);
+        console.log('Hello World3 > helloworld3.md');
+      })
+
+  })
   .catch(err => console.log(err));
+    
+    
     
     
 
