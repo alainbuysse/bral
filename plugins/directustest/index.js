@@ -30,6 +30,11 @@ module.exports = {
         console.log('Hello World4 > helloworld4.md');
       })
    
+    
+     fetch('https://cms.bimp.be/items/pages')
+    .then(res => res.text())
+    .then(body => console.log(body));
+    
 
 const getWeather = async () => {
      const base = 'https://cms.bimp.be/items/pages';
