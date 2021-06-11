@@ -27,14 +27,23 @@ module.exports = {
 
     
 
-fetch('https://cms.bimp.be/items/pages')
-  .then(response => response.json())
-  .then(test => {console.log(test.data[0].title);
-    fs.writeFile("./ba.md", test.data[0].title, function (err) {
-        if (err) return console.log(err);
-        console.log('Hello World2 > helloworld2.md');
-      })
-})
+ const fetch = require('node-fetch');
+
+// get weather information
+const getWeather = async (id) => {
+  
+    const base = 'https://cms.bimp.be/items/pages';
+  
+    const response = await fetch(base);
+    const data = await response.json();
+  
+    return data;
+  
+  };
+
+  getWeather()
+  .then(data => console.log(data))
+  .catch(err => console.log(err));
     
     
 
