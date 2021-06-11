@@ -3,6 +3,7 @@ module.exports = {
   console.log("my plugin loaded!")
       const fs = require("fs-extra");
       const fetch = require('node-fetch');
+    const fetch = require('request');
 
       
   //add any serializers for your portable text
@@ -24,14 +25,13 @@ module.exports = {
       });
     }
   });
-
-   return fetch('https://cms.bimp.be/items/pages', { headers: { Accept: "application/json" } })
-    .then((response) => response.json())
-    .then((data) => ({
-      statusCode: 200,
-      body: data,
-    }))
-    .catch((error) => ({ statusCode: 422, body: String(error) }));
+    
+        request('https://cms.bimp.be/items/pages', function (error, response, body) {
+  console.error('error:', error); // Print the error if one occurred
+  console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+  console.log('body:', body); // Print the HTML for the Google homepage.
+});
+    
     
     
     
