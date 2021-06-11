@@ -24,11 +24,7 @@ module.exports = {
     }
   });
 
-    
-    fs.writeFile("./content/blog/helloworld2.md", '---  \ntitle: dit is de titel2  \ndate: 2021-06-10T08:31:25.046Z  \ndescription: kleine omschrijving  \n---!  \n', function (err) {
-  if (err) return console.log(err);
-  console.log('Hello World2 > helloworld2.md');
-});
+
     
 
 fetch('https://cms.bimp.be/items/pages')
