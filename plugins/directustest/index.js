@@ -2,10 +2,8 @@ module.exports = {
   onPreBuild: async ({ utils, packageJson }) => {
   console.log("my plugin loaded!")
       const fs = require("fs-extra");
-      //const fetch = require('node-fetch');
-    
-    const fetch = require('node-fetch').default
-const fetch = request('node-fetch').default
+      const fetch = require('node-fetch');
+
       
   //add any serializers for your portable text
   const serializers = {
@@ -28,7 +26,13 @@ const fetch = request('node-fetch').default
   });
 
 
-
+    return fetch('https://cms.bimp.be/items/pages', { headers: { Accept: "application/json" } })
+    .then((response) => response.json())
+    .then((data) => ({
+      statusCode: 200,
+      body: data,
+    }))
+    .catch((error) => ({ statusCode: 422, body: String(error) }));
    
     
      fetch('https://cms.bimp.be/items/pages')
