@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "fs-extra": "^9.1.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
   }
   
 }
