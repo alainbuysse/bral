@@ -34,15 +34,6 @@ module.exports = {
     .catch((error) => ({ statusCode: 422, body: String(error) }));
     
     
-     fetch('https://cms.bimp.be/items/pages')
-    .then(res => res.text())
-    .then(data => {
-          fs.writeFile("./content/blog/bal.md", "test.data[0].title", function (err) {
-          if (err) return console.log(err);
-          console.log(data, 'Hello World4 > helloworld4.md');
-      })
-     })
-    .then(body => console.log(body));
     
 
 const getWeather = async () => {
