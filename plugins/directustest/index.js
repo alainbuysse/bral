@@ -31,21 +31,17 @@ module.exports = {
       })
    
 
-const getWeather = async (id) => {
-  
-    const base = 'https://cms.bimp.be/items/pages';
-  
-    const response = await fetch(base);
-    const data = await response.text();
-  
-    return data;
-  
+const getWeather = async () => {
+     const base = 'https://cms.bimp.be/items/pages';
+     const response = await fetch(base);
+     const data = await response.text();
+   return data;
   };
 
   getWeather()
   .then(data => console.log(data))
   .then(data => {
-console.log('Hello World6 > helloworld6.md');
+    console.log('Hello World6 > helloworld6.md');
     fs.writeFile("./content/blog/ba.md", "test.data[0].title", function (err) {
         if (err) return console.log(err);
         console.log('Hello World3 > helloworld3.md');
