@@ -45,7 +45,7 @@ const getWeather = async (id) => {
   getWeather()
   .then(data => console.log(data))
   .then(data => {
-
+console.log('Hello World6 > helloworld6.md');
     fs.writeFile("./content/blog/ba.md", "test.data[0].title", function (err) {
         if (err) return console.log(err);
         console.log('Hello World3 > helloworld3.md');
