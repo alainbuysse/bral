@@ -25,9 +25,7 @@ module.exports = {
   });
 
 
-    
-
- const fetch = require('node-fetch');
+   
 
 // get weather information
 const getWeather = async (id) => {
