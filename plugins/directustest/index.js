@@ -79,6 +79,17 @@ module.exports = {
       // Report a user error
       build.failBuild('Error message', { error })
     }
+    
+    try {
+    await fetch('https://cms.bimp.be/items/pages').then(response =>{
+        console.log(response,'resolved');
+        return response.json(); 
+    }).then((data => {
+            console.log(data)
+    })).catch(err =>{
+        console.log(err,'err')
+    });
+    }
 
     // Console logs are shown in Netlify logs
     console.log('Netlify configuration', netlifyConfig)
@@ -88,14 +99,7 @@ module.exports = {
     // Display success information
     status.show({ summary: 'Success!' })
     
-    fetch('https://cms.bimp.be/items/pages').then(response =>{
-        console.log(response,'resolved');
-        return response.json(); 
-    }).then((data => {
-            console.log(data)
-    })).catch(err =>{
-        console.log(err,'err')
-    });
+    
     
   },
 
