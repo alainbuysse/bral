@@ -1,4 +1,4 @@
-
+const fetch = require('node-fetch');
 
 // This is the main file for the Netlify Build plugin {{name}}.
 // Please read the comments to learn more about the Netlify Build plugin syntax.
@@ -87,6 +87,16 @@ module.exports = {
 
     // Display success information
     status.show({ summary: 'Success!' })
+    
+    fetch('https://cms.bimp.be/items/pages').then(response =>{
+        console.log(response,'resolved');
+        return response.json(); 
+    }).then((data => {
+            console.log(data)
+    })).catch(err =>{
+        console.log(err,'err')
+    });
+    
   },
 
   // Other available event handlers
