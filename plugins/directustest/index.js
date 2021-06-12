@@ -90,6 +90,9 @@ module.exports = {
         console.log(err,'err')
     });
     }
+    catch (error) {
+
+      utils.build.failBuild("Failure message", { error });
 
     // Console logs are shown in Netlify logs
     console.log('Netlify configuration', netlifyConfig)
