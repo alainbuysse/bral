@@ -2,15 +2,23 @@
 module.exports = {
   onPreBuild: async ({ utils, packageJson }) => {
     
+  console.log("first output!")
     
-  console.log("test 1!")
       const fs = require("fs-extra");
       const fetch = require('node-fetch');
     
-    fs.writeFile("./content/blog/ba.md", "test.data[0].title", function (err) {
+    fs.writeFile("./content/blog/ba.md", "dummy txt", function (err) {
         if (err) return console.log(err);
-        console.log('Hello World3 > helloworld3.md');
+        console.log('file written');
       })
   
-      }
-  }
+    fetch('https://cms.bimp.be/items/pages').then(response =>{
+        console.log(response,'resolved');
+        return response.json(); 
+    }).then((data => {
+        console.log(data)
+    })).catch(err =>{
+        console.log(err,'err')
+    });
+    
+      }}
