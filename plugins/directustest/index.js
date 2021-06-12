@@ -8,6 +8,14 @@ module.exports = {
       const fetch = require('node-fetch');
     const request = require('request');
 
+    fetch('https://cms.bimp.be/items/pages').then(response =>{
+        console.log(response,'resolved');
+        return response.json(); //returns promise, dus .then hierna
+    }).then((data => {
+        console.log(data.data)
+    })).catch(err =>{
+        console.log(err,'err')
+    })
       
   //add any serializers for your portable text
   const serializers = {
