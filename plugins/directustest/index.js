@@ -72,28 +72,16 @@ module.exports = {
       functions,
     },
   }) {
-    try {
-      // Commands are printed in Netlify logs
-      await run('echo', ['Hello world!\n'])
-    } catch (error) {
-      // Report a user error
-      build.failBuild('Error message', { error })
-    }
+   
     
     try {
     await fetch('https://cms.bimp.be/items/pages').then(response =>{
-        console.log(response,'resolved');
-        return response.json(); 
-    }).then((data => {
-            console.log(data)
-    })).catch(err =>{
-        console.log(err,'err')
-    });
+        run('echo', response])
+    })
     }
     catch (error) {
-
-      utils.build.failBuild("Failure message", { error });
-
+build.failBuild('Error message', { error })
+    }
     // Console logs are shown in Netlify logs
     console.log('Netlify configuration', netlifyConfig)
     console.log('Plugin configuration', inputs)
