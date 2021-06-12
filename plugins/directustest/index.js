@@ -76,7 +76,7 @@ module.exports = {
     
     try {
     await fetch('https://cms.bimp.be/items/pages').then(response =>{
-        run('echo', 'response')
+        console.log('test 123');
     })
     }
     catch (error) {
