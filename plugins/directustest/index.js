@@ -8,26 +8,17 @@ module.exports = {
       const fetch = require('node-fetch');
     const request = require('request');
 
-    fetch('https://cms.bimp.be/items/pages').then(response =>{
-        console.log(response,'resolved');
-        return response.json(); //returns promise, dus .then hierna
-    }).then((data => {
-        console.log(data.data);
-      fs.readdir("./content/blog", (err, files) => {
-    if (err) console.log(err);
-    else {
-      files.forEach((file) => {
-        console.log(`Deleting: ${file}`);
-        fs.remove(`content/blog//${file}`, (err) => {
-          if (err) throw err;
-        });
-      });
-    }
-  });
+    fs.writeFile("./content/blog/ba.md", "test.data[0].title", function (err) {
+        if (err) return console.log(err);
+        console.log('Hello World3 > helloworld3.md');
+      })
+    
     })).catch(err =>{
         console.log(err,'err')
     })
       
+
+
   //add any serializers for your portable text
   const serializers = {
     types: {
