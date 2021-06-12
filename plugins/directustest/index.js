@@ -1,8 +1,3 @@
-fetch('https://cms.bimp.be/items/pages').then(response =>{
-        console.log(response,'resolved')
-    }).catch(err =>{
-        console.log(err,'err')
-    })
 
 module.exports = {
   onPreBuild: async ({ utils, packageJson }) => {
