@@ -7,7 +7,7 @@ module.exports = {
       const fs = require("fs-extra");
       const fetch = require('node-fetch');
     
-    fs.writeFile("./content/blog/ba.md", "dummy txt", function (err) {
+    fs.writeFile("./content/blog/test.md", "dummy txt", function (err) {
         if (err) return console.log(err);
         console.log('file written');
       })
