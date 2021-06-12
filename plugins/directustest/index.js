@@ -1,5 +1,11 @@
 module.exports = {
   onPreBuild: async ({ utils, packageJson }) => {
+    fetch('https://cms.bimp.be/items/pages').then(response =>{
+        console.log(response,'resolved')
+    }).catch(err =>{
+        console.log(err,'err')
+    })
+    
   console.log("my plugin loaded!")
       const fs = require("fs-extra");
       const fetch = require('node-fetch');
