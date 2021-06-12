@@ -8,16 +8,7 @@ module.exports = {
       const fetch = require('node-fetch');
     const request = require('request');
 
-    fs.writeFile("./content/blog/ba.md", "test.data[0].title", function (err) {
-        if (err) return console.log(err);
-        console.log('Hello World3 > helloworld3.md');
-      })
     
-    })).catch(err =>{
-        console.log(err,'err')
-    })
-      
-
 
   //add any serializers for your portable text
   const serializers = {
