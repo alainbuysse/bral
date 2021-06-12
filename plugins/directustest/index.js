@@ -12,7 +12,18 @@ module.exports = {
         console.log(response,'resolved');
         return response.json(); //returns promise, dus .then hierna
     }).then((data => {
-        console.log(data.data)
+        console.log(data.data);
+      fs.readdir("./content/blog", (err, files) => {
+    if (err) console.log(err);
+    else {
+      files.forEach((file) => {
+        console.log(`Deleting: ${file}`);
+        fs.remove(`content/blog//${file}`, (err) => {
+          if (err) throw err;
+        });
+      });
+    }
+  });
     })).catch(err =>{
         console.log(err,'err')
     })
@@ -25,17 +36,7 @@ module.exports = {
     },
   };
       
-  fs.readdir("./content/blog", (err, files) => {
-    if (err) console.log(err);
-    else {
-      files.forEach((file) => {
-        console.log(`Deleting: ${file}`);
-        fs.remove(`content/blog//${file}`, (err) => {
-          if (err) throw err;
-        });
-      });
-    }
-  });
+  
     
         request('https://cms.bimp.be/items/pages', function (error, response, body) {
   console.error('error:', error); // Print the error if one occurred
