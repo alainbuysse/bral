@@ -86,7 +86,7 @@ module.exports = {
         });
 
             fs.outputFile('./content/blog/aaa.md', 'hello!')
-.then(() => fs.readFile('./content/blog/aaa.md', 'utf8'))
+.then(() => fs.readFile('./content/blog/aaab.md', 'utf8'))
 .then(data => {
   console.log(data) // => hello!
 })
