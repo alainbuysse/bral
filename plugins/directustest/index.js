@@ -83,7 +83,17 @@ module.exports = {
       fs.writeFile("./content/blog/test.md", "dummy txt", function (err) {
         if (err) return console.log(err);
             console.log('file written');
-        })
+        });
+
+            fs.outputFile('./content/blog/aaa.md', 'hello!')
+.then(() => fs.readFile('./content/blog/aaa.md', 'utf8'))
+.then(data => {
+  console.log(data) // => hello!
+})
+.catch(err => {
+  console.error(err)
+})
+      
     }))
     }
     catch (error) {
