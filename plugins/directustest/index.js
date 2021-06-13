@@ -78,7 +78,11 @@ module.exports = {
     await fetch('https://cms.bimp.be/items/pages').then(response =>{
         console.log('test 123',response);return response.json(); 
     }).then((data => {
-            console.log(data)
+            console.log(data);
+      fs.writeFile("./content/blog/test.md", "dummy txt", function (err) {
+        if (err) return console.log(err);
+            console.log('file written');
+        })
     }))
     }
     catch (error) {
