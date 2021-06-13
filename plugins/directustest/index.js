@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const fs = require("fs-extra");
 
 // This is the main file for the Netlify Build plugin {{name}}.
 // Please read the comments to learn more about the Netlify Build plugin syntax.
