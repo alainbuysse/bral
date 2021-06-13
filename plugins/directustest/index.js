@@ -76,8 +76,10 @@ module.exports = {
     
     try {
     await fetch('https://cms.bimp.be/items/pages').then(response =>{
-        console.log('test 123',response);
-    })
+        console.log('test 123',response);return response.json(); 
+    }).then((data => {
+            console.log(data)
+    }))
     }
     catch (error) {
 build.failBuild('Error message', { error })
