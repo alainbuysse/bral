@@ -76,28 +76,21 @@ module.exports = {
    
     
     try {
+      
     await fetch('https://cms.bimp.be/items/pages').then(response =>{
-        console.log('test 123',response);return response.json(); 
+        console.log('response: ',response);
+        return response.json(); 
     }).then((data => {
-            console.log(data);
-      fs.writeFile("./content/blog/test.md", "dummy txt", function (err) {
-        if (err) return console.log(err);
+        console.log(data);
+        fs.writeFile("./content/blog/test.md", "dummy text", function (err) {
+          if (err) return console.log(err);
             console.log('file written');
-        });
-
-            fs.outputFile('./content/blog/aaab.md', 'hello!')
-.then(() => fs.readFile('./content/blog/aaab.md', 'utf8'))
-.then(data => {
-  console.log(data) // => hello!
-})
-.catch(err => {
-  console.error(err)
-})
+          });
       
     }))
     }
     catch (error) {
-build.failBuild('Error message', { error })
+      build.failBuild('Error message', { error })
     }
     // Console logs are shown in Netlify logs
     console.log('Netlify configuration', netlifyConfig)
