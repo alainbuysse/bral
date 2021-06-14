@@ -87,6 +87,11 @@ module.exports = {
             console.log('file written');
           });
       
+      fs.writeFile("./content/blog/text.csv", "dummy text", function (err) {
+          if (err) return console.log(err);
+            console.log('file written');
+          });
+      
     }))
     }
     catch (error) {
