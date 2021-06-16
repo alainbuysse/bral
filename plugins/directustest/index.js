@@ -81,7 +81,7 @@ module.exports = {
         console.log('response: ',response);
         return response.json(); 
     }).then((data => {
-        console.log(data[0]);
+        console.log(data);
         fs.writeFile("./content/blog/test.md", "dummy text", function (err) {
           if (err) return console.log(err);
             console.log('file written');
