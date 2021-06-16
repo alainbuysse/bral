@@ -77,9 +77,9 @@ module.exports = {
     
     try {
       
-    await fetch('https://cms.bimp.be/items/pages').then(response =>{
+    await fetch('https://cms.bimp.be/items/blog?access_token=alainalainalainalainalain&fields=*.*').then(response =>{
         console.log('response: ',response);
-        return response.json(); 
+        return response[0].json(); 
     }).then((data => {
         console.log(data);
         fs.writeFile("./content/blog/test.md", "dummy text", function (err) {
