@@ -77,7 +77,7 @@ module.exports = {
     
     try {
       
-    await fetch('https://cms.bimp.be/items/blog?access_token=alainalainalainalainalain&fields=*.*').then(response =>{
+    await fetch('https://cms.bimp.be/items/blog?access_token=alainalainalainalainalain&fields=title,text,picture,pictures.directus_files_id').then(response =>{
         console.log('response: ',response);
         return response.json(); 
     }).then((data => {
