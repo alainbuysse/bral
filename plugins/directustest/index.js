@@ -79,9 +79,9 @@ module.exports = {
       
     await fetch('https://cms.bimp.be/items/blog?access_token=alainalainalainalainalain&fields=*.*').then(response =>{
         console.log('response: ',response);
-        return response[0].json(); 
+        return response.json(); 
     }).then((data => {
-        console.log(data);
+        console.log(data[0]);
         fs.writeFile("./content/blog/test.md", "dummy text", function (err) {
           if (err) return console.log(err);
             console.log('file written');
