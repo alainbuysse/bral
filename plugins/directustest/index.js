@@ -92,7 +92,15 @@ module.exports = {
             console.log('file written');
           });
       
-    }))
+    }));
+      
+      const response = await fetch("https://cms.bimp.be/items/blog?fields=text,pictures.directus_files_id,picture.id&access_token=alainalainalainalainalain");
+        const json = await response.json();
+        console.log(json.data[1].picture.id);
+        console.log(json.data[0].pictures[0].directus_files_id);
+        //let oo = JSON.stringify(json.data);
+        //console.log(oo);
+      
     }
     catch (error) {
       build.failBuild('Error message', { error })
