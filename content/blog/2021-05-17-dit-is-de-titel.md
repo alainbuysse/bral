@@ -1,7 +1,7 @@
 ---
 title: dit is de titel
 date: 2021-05-17T08:31:25.046Z
-description: kleine omschrijving
+description: kleine omschrijvingd
 ---
 4274635;PURE ENCAPSULATIONS CHOLESTEPURE 90 CAPS;2021-02-08;24,40
 4235297;DEFATYL IMMUNITY 60 TABL;2021-02-08;19,95
